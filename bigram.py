@@ -223,7 +223,7 @@ for iter in range(num_iter):
     optimizer.step()
 
 
-custom_context = "I am ARQ friend of ABISH"
+custom_context = "I am ARQ friend of Stark"
 encoded_context = encode(custom_context)
 context_tensor = torch.tensor(encoded_context,dtype=torch.long,device=device).unsqueeze(0)
 
